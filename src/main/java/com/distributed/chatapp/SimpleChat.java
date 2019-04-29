@@ -7,8 +7,8 @@ import org.jgroups.View;
 import org.jgroups.util.Util;
 
 import java.io.*;
-import java.util.List;
 import java.util.LinkedList;
+import java.util.List;
 
 public class SimpleChat extends ReceiverAdapter {
     JChannel channel;
@@ -76,7 +76,7 @@ public class SimpleChat extends ReceiverAdapter {
 
 
     public static void main(String[] args) throws Exception {
-        new SimpleChat().start();
+        new com.distributed.chatapp.SimpleChat().start();
     }
 }
 
